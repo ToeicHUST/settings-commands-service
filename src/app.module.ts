@@ -5,7 +5,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthModule, ErrorHandlerFilter } from '@toeichust/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-// import { TargetModule } from './modules/target/target.module';
+import { SettingsModule } from './modules/settings/settings.module';
 
 @Module({
   imports: [
@@ -51,7 +51,7 @@ import { AppService } from './app.service';
       },
     }),
 
-    // TargetModule,
+    SettingsModule,
   ],
   controllers: [AppController],
   providers: [
