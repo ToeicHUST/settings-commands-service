@@ -46,7 +46,7 @@
     "typeorm": "^0.3.28"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.4.1",
+    "@commitlint/cli": "^20.4.2",
     "@commitlint/config-conventional": "^20.4.1",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^10.0.1",
